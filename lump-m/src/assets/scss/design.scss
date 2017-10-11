@@ -1,0 +1,108 @@
+@import "variables.scss";
+
+body {
+	background: linear-gradient(to bottom, #11152d 0%,#070912 100%); 
+	margin : 0;
+	color : $white;
+	font-family : 'Open Sans', sans-serif;
+	font-weight : light; 
+	letter-spacing: 0.91px;
+}
+
+@font-face {
+	font-family:'gotham-bold';
+	src:url(/src/assets/font-gotham/Gotham-Bold.otf) format ('otf');
+}
+
+@font-face {
+	font-family:'gotham-light';
+	src:url(/src/assets/font-gotham/Gotham-Light.otf) format ('otf');
+}
+
+@font-face {
+	font-family:'gotham-medium';
+	src:url(/src/assets/font-gotham/Gotham-Medium.otf) format ('otf');
+}
+
+@font-face {
+	font-family:'gotham-book';
+	src:url(/src/assets/font-gotham/Gotham-Book.otf) format ('otf');
+}
+
+
+
+// Fonts Class
+.big-title {
+	font-family : 'gotham-bold', sans-serif;
+	font-size : 24px;
+	color : $white;
+}
+
+.title {
+	font-family : 'gotham-medium', sans-serif;
+	font-size : 1em;
+	color : $white;
+	line-height : 1;
+	letter-spacing: 0.91px;
+}
+
+.name-title {
+	font-family : 'gotham-light', sans-serif;
+	font-size : 1em;
+	color : $white;
+	letter-spacing: 0.91px;
+	text-transform : uppercase;
+	line-height : 1;
+}
+
+.title:hover {
+	font-family : 'gotham-bold', sans-serif;
+}
+
+.subtitle-gold {
+	font-family : 'gotham-book';
+	font-size : 0.9em;
+	color : $gold;
+	text-transform : uppercase;
+}
+
+.subtitle-white {
+	font-family : 'gotham-book', sans-serif;
+	font-size : 0.9em;
+	color : $white;
+	text-transform : uppercase;
+}
+
+.bold-body-text {
+	font-family : 'Open Sans', sans-serif;
+	font-weight : 700;
+	font-size : 1em;
+	color : $white;
+}
+
+.body-text {
+	font-family : 'Open Sans', sans-serif;
+	font-weight : 100;
+	font-size : 1em;
+	color : $white;
+	line-height: 1.2;
+}
+
+.detail {
+	font-family : 'Open Sans', sans-serif;
+	font-weight : 300;
+	font-size : 0.85em;
+	color : #8D909A;
+}
+
+.detail:hover {
+	font-weight : 400;
+}
+
+.button-text {
+	font-family : 'gotham-medium', sans-serif;
+	font-size : 11px;
+	color : $white;
+	text-transform : uppercase;
+}
+

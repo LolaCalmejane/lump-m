@@ -1,0 +1,55 @@
+// Import variables
+@import "variables.scss";
+
+// Import CSS global
+@import "design.scss";
+
+// Import CSS pages/components 
+// Static imports
+@import './components/Static/Static.scss'
+@import './components/Static/Search/Search.scss'
+@import './components/Static/Sidebar/Sidebar.scss'
+@import './components/Profile/HeaderProfile/HeaderProfile.scss'
+
+// Profile imports
+@import 'src/components/Profile/ProfileEvents/ProfileEvents.scss'
+@import 'src/components/Profile/ProfileMusics/Musics/Musics.scss'
+@import 'src/components/Profile/ProfileStars/ProfileStars.scss'
+@import 'src/components/Profile/ProfilePlaylists/ProfilePlaylists.scss'
+@import 'src/components/Profile/ProfileCalendar/ProfileCalendar.scss'
+@import 'src/components/Profile/ProfileFriends/Friends/Friends.scss'
+
+// Create imports
+@import 'src/components/Create/Create.scss'
+@import 'src/components/Create/AddFriends/AddFriends.scss'
+
+// Events imports
+@import 'src/components/Events/AllComingEvents/AllComingEvents.scss'
+@import 'src/components/Events/AllPassedEvents/AllPassedEvents.scss'
+@import 'src/components/Events/Event/Event.scss'
+
+// Authentification imports
+@import 'src/components/Authentification/SignUp/SignUp.scss'
+@import 'src/components/Authentification/Login/Login.scss'
+
+
+
+@import "src/components/Profil/Profil.scss";
+@import "src/components/Login/Login.scss";
+@import "src/components/Login/Inscription.scss";
+@import "src/components/Create/Create.scss";
+@import "src/components/Create/AddFriends/AddFriends.scss";
+@import "src/components/Events/AllComingEvents/allComingEvents.scss";
+@import "src/components/Events/AllPassedEvents/allPassedEvents.scss";
+@import "src/components/Events/Event/Event.scss";
+@import "src/components/Search/Search.scss";
+@import "src/components/Sidebar/Sidebar.scss";
+@import "src/components/Profil/HeaderProfil/HeaderProfil.scss";
+@import "src/components/Profil/Musics/Musics.scss";
+@import "src/components/Profil/Playlists/Playlists.scss";
+@import "src/components/Profil/Stars/Stars.scss";
+@import "src/components/Profil/Calendar/Calendar.scss";
+@import "src/components/Profil/Friends/Friends.scss";
+@import "src/components/Profil/MusicsGrid/MusicsGrid.scss";
+@import "src/components/Profil/FriendsGrid/FriendsGrid.scss";
+@import "src/components/Static/Static.scss";
